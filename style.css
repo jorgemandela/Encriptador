@@ -1,0 +1,73 @@
+* {
+    font-family: 'changa';
+    
+}
+
+.body {
+    background-color: #0c0246;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( to right, #5e142a 0%, #b1161e 100% );
+}
+
+
+
+
+main{
+    background-color: #eee;
+    margin-top: 5%;
+    border-radius:0.5rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    color:#b1161e;
+}
+
+#lista {
+    text-align: center;
+    justify-content: center;
+    padding: 1%;
+}
+
+#ele-list {
+    color:#5e142a
+}
+
+#areatexto, #salida {
+    resize: none;
+    margin-left: 1% ;
+    font-size: 2rem;
+}
+
+#text-in {
+    display: flex;
+    justify-content: center;
+}
+
+
+.btns {
+display: flex;
+justify-content: center;
+margin-top: 1%;
+}
+
+.btn {
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+#encriptar, #desencriptar{
+    background-color:#5e142a;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+ #encriptar:hover, #desencriptar:hover,#copiar:hover {
+    background-color:#b1161e;
+    transform: scale(1.12);
+}
+
+
